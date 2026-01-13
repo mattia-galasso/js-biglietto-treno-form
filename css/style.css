@@ -1,0 +1,104 @@
+/* BOOTSTRAP RESET */
+.card-header:first-child {
+  border-radius: 0;
+}
+
+/* FORM */
+#form-box {
+  border-radius: 20px 20px 15px 15px;
+}
+
+#form-box .card-header:first-child {
+  border-radius: 15px 15px 0 0;
+}
+
+.card-header {
+  background-color: #324f7e;
+  color: white;
+}
+
+.form-header h1 {
+  font-size: 1.8rem;
+  margin: 14px 0;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* TICKET */
+#ticket-box {
+  border-radius: 35px;
+}
+
+#ticket-box .card-header:first-child {
+  border-radius: 35px 35px 0 0;
+}
+
+.ticket-header h1 {
+  font-size: 1.3rem;
+  margin: 8px 20px;
+}
+
+#ticket-box .ticket-container-body {
+  padding: 13px 0;
+}
+
+.your-ticket-body {
+  border-top: 2px dashed lightgray;
+  border-bottom: 2px dashed lightgray;
+  padding: 1rem 3rem;
+}
+
+#ticket-passenger {
+  border-radius: 15px;
+}
+
+#ticket-passenger .card-header:first-child {
+  border-radius: 15px 0 0 0;
+}
+
+#info-passenger {
+  background-color: #eceff7;
+  border-radius: 15px 0 0 15px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.discount-name {
+  border-bottom: 1px lightgrey solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.3rem 0;
+}
+
+.discount-name h6 {
+  font-size: 1.1rem;
+}
+
+.info-label {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+
+.ticket-footer {
+  border-left: 2px lightgrey dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 35px 35px;
+}
+
+.your-ticket-footer {
+  background-color: #324f7e;
+  height: 35px;
+}
